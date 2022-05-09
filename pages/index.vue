@@ -63,8 +63,7 @@ const data = {
 }
 
 .about--image {
-  max-width: 400px;
-  width: 100%;
+  width: 250px;
   height: auto;
 }
 
@@ -109,6 +108,8 @@ const data = {
   .about--image {
     margin-right: 30px;
     z-index: 2;
+    max-width: 400px;
+    width: 100%;
   }
 
   .projects {
