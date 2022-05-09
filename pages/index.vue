@@ -21,6 +21,11 @@
 const data = {
   iframegroup: [
     {
+      title: "Vidéo promotionnelle",
+      subtitle: "Réalisation, cadrage et montage",
+      iframes: ["ibVT3ejjc9A"]
+    },
+    {
       title: "Clip",
       subtitle: "Prestation de cadrage et montage",
       iframes: ["sWjxVGunUq8", "ivU7uWbC5l8"]
