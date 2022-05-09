@@ -50,11 +50,12 @@ const data = {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  background-color: #E2DDFB;
 }
 
 .about--title {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
@@ -64,6 +65,7 @@ const data = {
 .about--image {
   max-width: 100%;
   width: 400px;
+  height: auto;
 }
 
 .about--text {
@@ -74,17 +76,17 @@ const data = {
 .projects {
   padding: 20px;
   color: #FFFFFF;
-  background-color: #1F2933;
+  background-color: #191432;
 }
 
 .projects--title {
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
   margin: 0;
   margin-bottom: 30px;
-  color: #384149;
+  color: #37334C;
 }
 
 @media (min-width: 1024px) {
@@ -99,13 +101,14 @@ const data = {
     top: 0;
     left: -10px;
     font-size: 130px;
-    z-index: -1;
-    color: #E6E7E8;
+    z-index: 1;
+    color: #CEC5FF;
     opacity: 0.4;
   }
 
   .about--image {
     margin-right: 30px;
+    z-index: 2;
   }
 
   .projects {
