@@ -63,8 +63,8 @@ const data = {
 }
 
 .about--image {
-  max-width: 100%;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   height: auto;
 }
 
