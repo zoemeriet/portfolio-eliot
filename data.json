@@ -1,0 +1,20 @@
+{
+  "title": "Titre de la page",
+  "video": "/images/f1/f1.mp4",
+  "projects": [
+    {
+      "slug": "f1",
+      "title": "Formule 1",
+      "head": "/images/f1/f1_head.png",
+      "miniature": "/images/f1/f1_miniature.jpg",
+      "video": "/images/f1/f1.mp4",
+      "stills": [
+        "/images/f1/f1_still_1.jpg",
+        "/images/f1/f1_still_2.jpg",
+        "/images/f1/f1_still_3.jpg",
+        "/images/f1/f1_still_4.jpg",
+        "/images/f1/f1_still_5.jpg"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'Ruina';
+  src: url('/fonts/ruina.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ruina', sans-serif;
   margin: 0;
+  background-color: black;
 }
