@@ -44,6 +44,7 @@ import data from "../data.json";
 .project-card--img {
   width: 100%;
   height: auto;
+  display: flex;
 }
 @media (min-width: 1024px) {
   
