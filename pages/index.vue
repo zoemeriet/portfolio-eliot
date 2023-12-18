@@ -25,10 +25,10 @@ import data from "../data.json";
 }
 .projects--title {
   position: absolute;
-  top: 50px;
-  left: 50px;
+  top: 20px;
+  left: 20px;
   color: #3b444f;
-  font-size: 6rem;
+  font-size: 3rem;
   margin: 0;
 }
 .projects--video {
@@ -37,7 +37,7 @@ import data from "../data.json";
 }
 .projects--list {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 8px;
   padding: 8px;
 }
@@ -47,6 +47,15 @@ import data from "../data.json";
   display: flex;
 }
 @media (min-width: 1024px) {
-  
+  .projects--title {
+    top: 50px;
+    left: 50px;
+    font-size: 6rem;
+  }
+  .projects--list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 8px;
+  }
 }
 </style>

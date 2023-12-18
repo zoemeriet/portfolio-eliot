@@ -35,7 +35,7 @@ const dataProject = data.projects.find((project: any) => project.slug === route.
 }
 .project--stills {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 8px;
 }
 .project--img {
@@ -44,6 +44,8 @@ const dataProject = data.projects.find((project: any) => project.slug === route.
 }
 
 @media (min-width: 1024px) {
-
+  .project--stills {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 </style>
