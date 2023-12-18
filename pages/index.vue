@@ -2,9 +2,9 @@
   <div>
     <div class="projects--header">
       <h1 class="projects--title">Eliot Meriet</h1>
-      <!-- <video autoplay muted loop class="projects--video">
+      <video autoplay muted loop class="projects--video">
         <source :src="data.video" type="video/mp4">
-      </video> -->
+      </video>
     </div>
 
     <div class="projects--list">
