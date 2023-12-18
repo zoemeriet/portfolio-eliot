@@ -1,13 +1,13 @@
 {
   "title": "Titre de la page",
-  "video": "http://enqueteiutblois.gite-entrenous.com/boucle.mp4",
+  "video": "https://enqueteiutblois.gite-entrenous.com/boucle.mp4",
   "projects": [
     {
       "slug": "f1",
       "title": "Formule 1",
       "head": "/images/f1/f1_head.png",
       "miniature": "/images/f1/f1_miniature.jpg",
-      "video": "http://enqueteiutblois.gite-entrenous.com/f1.mp4",
+      "video": "https://enqueteiutblois.gite-entrenous.com/f1.mp4",
       "stills": [
         "/images/f1/f1_still_1.jpg",
         "/images/f1/f1_still_2.jpg",
@@ -39,6 +39,19 @@
         "/images/solstice/solstice_still_2.jpg",
         "/images/solstice/solstice_still_3.jpg",
         "/images/solstice/solstice_still_4.jpg"
+      ]
+    },
+    {
+      "slug": "clip",
+      "title": "Clip",
+      "head": "/images/clip/clip_head.png",
+      "miniature": "/images/clip/clip_miniature.png",
+      "video": "https://enqueteiutblois.gite-entrenous.com/clip.mp4",
+      "stills": [
+        "/images/clip/clip_still_1.png",
+        "/images/clip/clip_still_2.png",
+        "/images/clip/clip_still_3.png",
+        "/images/clip/clip_still_4.png"
       ]
     }
   ]
