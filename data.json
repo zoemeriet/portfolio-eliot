@@ -28,6 +28,19 @@
         "/images/lenovo/lenovo_still_3.jpg",
         "/images/lenovo/lenovo_still_4.jpg"
       ]
+    },
+    {
+      "slug": "solstice",
+      "title": "Solstice",
+      "head": "/images/solstice/solstice_head.png",
+      "miniature": "/images/solstice/solstice_miniature.jpg",
+      "video": "/images/solstice/solstice.mp4",
+      "stills": [
+        "/images/solstice/solstice_still_1.jpg",
+        "/images/solstice/solstice_still_2.jpg",
+        "/images/solstice/solstice_still_3.jpg",
+        "/images/solstice/solstice_still_4.jpg"
+      ]
     }
   ]
 }
