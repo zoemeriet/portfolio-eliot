@@ -2,9 +2,9 @@
   <div v-if="dataProject" class="project--page">
     {{ dataProject.title }}
     <img :src="dataProject.head" :alt="dataProject.title">
-    <!-- <video controls class="project--video">
+    <video controls class="project--video">
       <source :src="dataProject.video" type="video/mp4" />
-    </video> -->
+    </video>
     <div class="project--stills">
       <img v-for="still in dataProject.stills" :src="still" :alt="dataProject.title" class="project--img">
     </div>
