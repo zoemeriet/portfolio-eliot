@@ -15,6 +15,19 @@
         "/images/f1/f1_still_4.jpg",
         "/images/f1/f1_still_5.jpg"
       ]
+    },
+    {
+      "slug": "lenovo",
+      "title": "Lenovo",
+      "head": "/images/lenovo/lenovo_head.png",
+      "miniature": "/images/lenovo/lenovo_miniature.jpg",
+      "video": "/images/lenovo/lenovo.mp4",
+      "stills": [
+        "/images/lenovo/lenovo_still_1.jpg",
+        "/images/lenovo/lenovo_still_2.jpg",
+        "/images/lenovo/lenovo_still_3.jpg",
+        "/images/lenovo/lenovo_still_4.jpg"
+      ]
     }
   ]
 }
