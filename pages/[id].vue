@@ -2,9 +2,9 @@
   <div v-if="dataProject" class="project--page">
     {{ dataProject.title }}
     <img :src="dataProject.head" :alt="dataProject.title">
-    <video controls class="project--video">
+    <!-- <video controls class="project--video">
       <source :src="dataProject.video" type="video/mp4" />
-    </video>
+    </video> -->
     <div class="project--stills">
       <img v-for="still in dataProject.stills" :src="still" :alt="dataProject.title" class="project--img">
     </div>
@@ -16,8 +16,8 @@
 
 <script lang="ts" setup>
 import data from "../data.json";
-const route = useRoute();
-const dataProject = data.projects.find(project => project.slug === route.params.id)
+const route = useRoute()
+const dataProject = data.projects.find((project: any) => project.slug === route.params.id)
 </script>
 
 <style>
