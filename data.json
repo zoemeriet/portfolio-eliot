@@ -1,13 +1,13 @@
 {
   "title": "Titre de la page",
-  "video": "https://enqueteiutblois.gite-entrenous.com/boucle.mp4",
+  "video": "http://enqueteiutblois.gite-entrenous.com/boucle.mp4",
   "projects": [
     {
       "slug": "f1",
       "title": "Formule 1",
       "head": "/images/f1/f1_head.png",
       "miniature": "/images/f1/f1_miniature.jpg",
-      "video": "https://enqueteiutblois.gite-entrenous.com/f1.mp4",
+      "video": "http://enqueteiutblois.gite-entrenous.com/f1.mp4",
       "stills": [
         "/images/f1/f1_still_1.jpg",
         "/images/f1/f1_still_2.jpg",

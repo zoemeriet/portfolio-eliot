@@ -27,7 +27,7 @@ import data from "../data.json";
   position: absolute;
   top: 50px;
   left: 50px;
-  color: white;
+  color: #3b444f;
   font-size: 6rem;
   margin: 0;
 }
