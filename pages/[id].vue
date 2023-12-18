@@ -1,6 +1,5 @@
 <template>
   <div v-if="dataProject" class="project--page">
-    {{ dataProject.title }}
     <img :src="dataProject.head" :alt="dataProject.title">
     <video controls autoplay class="project--video">
       <source :src="dataProject.video" type="video/mp4" />

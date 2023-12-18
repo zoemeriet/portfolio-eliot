@@ -5,16 +5,11 @@
       <video autoplay muted loop class="projects--video">
         <source :src="data.video" type="video/mp4">
       </video>
+      <a href="mailto:merieteliot@gmail.com" class="projects--mail">merieteliot@gmail.com</a>
       <div class="projects--links">
-        <a href="/contact">Contact</a>
+        <a href="/">Projects</a>
         <a href="https://www.instagram.com/eliot.meriet/" target="_blank">Instagram</a>
       </div>
-    </div>
-
-    <div class="projects--list">
-      <NuxtLink :to="`/${project.slug}`" v-for="project in data.projects">
-        <img class="project-card--img" :src="project.miniature" :alt="project.title">
-      </NuxtLink>
     </div>
   </div>
 </template>
@@ -34,6 +29,18 @@ import data from "../data.json";
   font-size: 3rem;
   margin: 0;
 }
+.projects--mail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: inherit;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: white;
+  padding: 16px;
+  box-shadow: 5px 5px 0px #F0F0F0;
+}
 .projects--links {
   display: flex;
   flex-direction: column;
@@ -42,6 +49,7 @@ import data from "../data.json";
   right: 20px;
   bottom: 20px;
   text-align: right;
+  font-size: 2rem;
 }
 .projects--links a {
   color: inherit;
@@ -49,18 +57,9 @@ import data from "../data.json";
 }
 .projects--video {
   width: 100%;
-  height: auto;
-}
-.projects--list {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 8px;
-  padding: 8px;
-}
-.project-card--img {
-  width: 100%;
-  height: auto;
-  display: flex;
+  height: 100%;
+  object-fit: cover;
+  min-height: 500px;
 }
 @media (min-width: 1024px) {
   .projects--title {
@@ -68,6 +67,9 @@ import data from "../data.json";
     left: 50px;
     font-size: 6rem;
   }
+  .projects--mail {
+    font-size: 3rem;
+  } 
   .projects--links {
     gap: 20px;
     right: 50px;
