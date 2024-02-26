@@ -3,6 +3,18 @@
   "video": "https://enqueteiutblois.gite-entrenous.com/boucle.mp4",
   "projects": [
     {
+      "slug": "decathlon",
+      "title": "Decathlon",
+      "head": "/images/decathlon/decathlon_head.png",
+      "miniature": "/images/decathlon/decathlon_miniature.png",
+      "video": "https://enqueteiutblois.gite-entrenous.com/decathlon.mp4",
+      "stills": [
+        "/images/decathlon/decathlon_still_1.png",
+        "/images/decathlon/decathlon_still_2.png",
+        "/images/decathlon/decathlon_still_3.png"
+      ]
+    },
+    {
       "slug": "f1",
       "title": "Formule 1",
       "head": "/images/f1/f1_head.png",
