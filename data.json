@@ -3,6 +3,19 @@
   "video": "https://enqueteiutblois.gite-entrenous.com/boucle.mp4",
   "projects": [
     {
+      "slug": "lettre",
+      "title": "Lettre à moi-même",
+      "head": "/images/lettre/lettre_head.png",
+      "miniature": "/images/lettre/lettre_miniature.png",
+      "video": "https://enqueteiutblois.gite-entrenous.com/lettre.mp4",
+      "stills": [
+        "/images/lettre/lettre_still_1.png",
+        "/images/lettre/lettre_still_2.png",
+        "/images/lettre/lettre_still_3.png",
+        "/images/lettre/lettre_still_4.png"
+      ]
+    },
+    {
       "slug": "decathlon",
       "title": "Decathlon",
       "head": "/images/decathlon/decathlon_head.png",
