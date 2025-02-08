@@ -3,6 +3,19 @@
   "video": "https://enqueteiutblois.gite-entrenous.com/boucle.mp4",
   "projects": [
     {
+      "slug": "patagonia",
+      "title": "Patagonia",
+      "head": "/images/patagonia/patagonia_head.png",
+      "miniature": "/images/patagonia/patagonia_miniature.jpg",
+      "video": "https://enqueteiutblois.gite-entrenous.com/patagonia.mp4",
+      "stills": [
+        "/images/patagonia/patagonia_still_1.jpg",
+        "/images/patagonia/patagonia_still_2.jpg",
+        "/images/patagonia/patagonia_still_3.jpg",
+        "/images/patagonia/patagonia_still_4.jpg"
+      ]
+    },
+    {
       "slug": "lettre",
       "title": "Lettre à moi-même",
       "head": "/images/lettre/lettre_head.png",
