@@ -3,6 +3,19 @@
   "video": "https://enqueteiutblois.gite-entrenous.com/boucle.mp4",
   "projects": [
     {
+      "slug": "bts",
+      "title": "BTS",
+      "head": "/images/bts/bts_head.png",
+      "miniature": "/images/bts/bts_miniature.jpg",
+      "video": "https://enqueteiutblois.gite-entrenous.com/bts.mp4",
+      "stills": [
+        "/images/bts/bts_still_1.jpg",
+        "/images/bts/bts_still_2.jpg",
+        "/images/bts/bts_still_3.jpg",
+        "/images/bts/bts_still_4.jpeg"
+      ]
+    },
+    {
       "slug": "patagonia",
       "title": "Patagonia",
       "head": "/images/patagonia/patagonia_head.png",
